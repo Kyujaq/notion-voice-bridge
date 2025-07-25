@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: notion-voice-bridge
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: NOTION_TOKEN
+        value: YOUR_NOTION_TOKEN_HERE
