@@ -7,4 +7,4 @@ services:
     startCommand: "python app.py"
     envVars:
       - key: NOTION_TOKEN
-        value: YOUR_NOTION_TOKEN_HERE
+        value: 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
